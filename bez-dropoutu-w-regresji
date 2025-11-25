@@ -1,0 +1,270 @@
+
+=== Training mode=cls_only ===
+Eval Epoch: 1 | acc: 0.0050 | loss: 4.6738 | cls_loss: 4.6738 | cnt_loss: 1.4927
+Eval Epoch: 2 | acc: 0.0240 | loss: 4.3906 | cls_loss: 4.3906 | cnt_loss: 1.5024
+Eval Epoch: 3 | acc: 0.0310 | loss: 3.8384 | cls_loss: 3.8384 | cnt_loss: 1.5061
+Eval Epoch: 4 | acc: 0.0740 | loss: 3.4163 | cls_loss: 3.4163 | cnt_loss: 1.5040
+Eval Epoch: 5 | acc: 0.1390 | loss: 2.8271 | cls_loss: 2.8271 | cnt_loss: 1.5235
+Eval Epoch: 6 | acc: 0.2140 | loss: 2.3654 | cls_loss: 2.3654 | cnt_loss: 1.5366
+Eval Epoch: 7 | acc: 0.2800 | loss: 2.0677 | cls_loss: 2.0677 | cnt_loss: 1.5600
+Eval Epoch: 8 | acc: 0.3300 | loss: 1.7975 | cls_loss: 1.7975 | cnt_loss: 1.5767
+Eval Epoch: 9 | acc: 0.3270 | loss: 1.7168 | cls_loss: 1.7168 | cnt_loss: 1.5780
+Eval Epoch: 10 | acc: 0.3570 | loss: 1.6005 | cls_loss: 1.6005 | cnt_loss: 1.5907
+Eval Epoch: 11 | acc: 0.3760 | loss: 1.5289 | cls_loss: 1.5289 | cnt_loss: 1.5862
+Eval Epoch: 12 | acc: 0.3810 | loss: 1.4712 | cls_loss: 1.4712 | cnt_loss: 1.5934
+Eval Epoch: 13 | acc: 0.3800 | loss: 1.4500 | cls_loss: 1.4500 | cnt_loss: 1.5839
+Eval Epoch: 14 | acc: 0.3710 | loss: 1.5406 | cls_loss: 1.5406 | cnt_loss: 1.5838
+Eval Epoch: 15 | acc: 0.4190 | loss: 1.3870 | cls_loss: 1.3870 | cnt_loss: 1.5810
+Eval Epoch: 16 | acc: 0.4490 | loss: 1.3146 | cls_loss: 1.3146 | cnt_loss: 1.6029
+Eval Epoch: 17 | acc: 0.4550 | loss: 1.2899 | cls_loss: 1.2899 | cnt_loss: 1.5943
+Eval Epoch: 18 | acc: 0.4690 | loss: 1.2836 | cls_loss: 1.2836 | cnt_loss: 1.5886
+Eval Epoch: 19 | acc: 0.4380 | loss: 1.2991 | cls_loss: 1.2991 | cnt_loss: 1.5920
+Eval Epoch: 20 | acc: 0.4060 | loss: 1.3918 | cls_loss: 1.3918 | cnt_loss: 1.5961
+Eval Epoch: 21 | acc: 0.4850 | loss: 1.2577 | cls_loss: 1.2577 | cnt_loss: 1.5916
+Eval Epoch: 22 | acc: 0.4740 | loss: 1.2348 | cls_loss: 1.2348 | cnt_loss: 1.5971
+Eval Epoch: 23 | acc: 0.4730 | loss: 1.3070 | cls_loss: 1.3070 | cnt_loss: 1.5891
+Eval Epoch: 24 | acc: 0.4860 | loss: 1.2416 | cls_loss: 1.2416 | cnt_loss: 1.6076
+Eval Epoch: 25 | acc: 0.4530 | loss: 1.2618 | cls_loss: 1.2618 | cnt_loss: 1.6019
+Eval Epoch: 26 | acc: 0.4730 | loss: 1.2909 | cls_loss: 1.2909 | cnt_loss: 1.5993
+Eval Epoch: 27 | acc: 0.4470 | loss: 1.3643 | cls_loss: 1.3643 | cnt_loss: 1.5865
+Eval Epoch: 28 | acc: 0.5130 | loss: 1.1902 | cls_loss: 1.1902 | cnt_loss: 1.5898
+Eval Epoch: 29 | acc: 0.5130 | loss: 1.2072 | cls_loss: 1.2072 | cnt_loss: 1.6002
+Eval Epoch: 30 | acc: 0.4920 | loss: 1.2761 | cls_loss: 1.2761 | cnt_loss: 1.5962
+Eval Epoch: 31 | acc: 0.4900 | loss: 1.2328 | cls_loss: 1.2328 | cnt_loss: 1.5848
+Eval Epoch: 32 | acc: 0.5090 | loss: 1.2253 | cls_loss: 1.2253 | cnt_loss: 1.5951
+Eval Epoch: 33 | acc: 0.5140 | loss: 1.2131 | cls_loss: 1.2131 | cnt_loss: 1.5895
+Eval Epoch: 34 | acc: 0.5030 | loss: 1.2960 | cls_loss: 1.2960 | cnt_loss: 1.5909
+Eval Epoch: 35 | acc: 0.4670 | loss: 1.3494 | cls_loss: 1.3494 | cnt_loss: 1.5987
+Eval Epoch: 36 | acc: 0.4750 | loss: 1.2977 | cls_loss: 1.2977 | cnt_loss: 1.5915
+Eval Epoch: 37 | acc: 0.4750 | loss: 1.3762 | cls_loss: 1.3762 | cnt_loss: 1.5849
+Eval Epoch: 38 | acc: 0.5250 | loss: 1.2272 | cls_loss: 1.2272 | cnt_loss: 1.5914
+Early stop at epoch 38. Best val loss: 1.1902, with acc: 0.5130, after epoch: 28
+Top-1 accuracy: 0.5130000114440918
+Macro F1:0.4817202435962179
+Per-pair accuracy: 0.95
+RMSE per class: [3.0044844150543213, 3.5220608711242676, 3.1076061725616455, 2.990875244140625, 3.3107974529266357, 3.2568559646606445]
+MAE per class: [1.7229140996932983, 2.0803215503692627, 1.8875921964645386, 1.7291979789733887, 2.0380923748016357, 1.9852732419967651]
+Overall RMSE: 3.2042388916015625
+Overall MAE: 1.9072318077087402
+Saved model to checkpoints_data/model_cls_only.pt
+
+=== Training mode=reg_only ===
+Eval Epoch: 1 | acc: 0.0050 | loss: 1.3802 | cls_loss: 4.9118 | cnt_loss: 1.3802
+Eval Epoch: 2 | acc: 0.0060 | loss: 0.8896 | cls_loss: 4.9211 | cnt_loss: 0.8896
+Eval Epoch: 3 | acc: 0.0110 | loss: 0.5147 | cls_loss: 4.9366 | cnt_loss: 0.5147
+Eval Epoch: 4 | acc: 0.0060 | loss: 0.3041 | cls_loss: 4.9448 | cnt_loss: 0.3041
+Eval Epoch: 5 | acc: 0.0150 | loss: 0.2620 | cls_loss: 4.9359 | cnt_loss: 0.2620
+Eval Epoch: 6 | acc: 0.0130 | loss: 0.2881 | cls_loss: 4.9397 | cnt_loss: 0.2881
+Eval Epoch: 7 | acc: 0.0190 | loss: 0.2171 | cls_loss: 4.9363 | cnt_loss: 0.2171
+Eval Epoch: 8 | acc: 0.0200 | loss: 0.2091 | cls_loss: 4.9352 | cnt_loss: 0.2091
+Eval Epoch: 9 | acc: 0.0160 | loss: 0.2117 | cls_loss: 4.9320 | cnt_loss: 0.2117
+Eval Epoch: 10 | acc: 0.0190 | loss: 0.1817 | cls_loss: 4.9332 | cnt_loss: 0.1817
+Eval Epoch: 11 | acc: 0.0200 | loss: 0.1892 | cls_loss: 4.9341 | cnt_loss: 0.1892
+Eval Epoch: 12 | acc: 0.0180 | loss: 0.1763 | cls_loss: 4.9349 | cnt_loss: 0.1763
+Eval Epoch: 13 | acc: 0.0220 | loss: 0.1816 | cls_loss: 4.9322 | cnt_loss: 0.1816
+Eval Epoch: 14 | acc: 0.0150 | loss: 0.1748 | cls_loss: 4.9358 | cnt_loss: 0.1748
+Eval Epoch: 15 | acc: 0.0230 | loss: 0.1716 | cls_loss: 4.9330 | cnt_loss: 0.1716
+Eval Epoch: 16 | acc: 0.0160 | loss: 0.1555 | cls_loss: 4.9363 | cnt_loss: 0.1555
+Eval Epoch: 17 | acc: 0.0200 | loss: 0.1528 | cls_loss: 4.9343 | cnt_loss: 0.1528
+Eval Epoch: 18 | acc: 0.0110 | loss: 0.1593 | cls_loss: 4.9362 | cnt_loss: 0.1593
+Eval Epoch: 19 | acc: 0.0090 | loss: 0.1519 | cls_loss: 4.9334 | cnt_loss: 0.1519
+Eval Epoch: 20 | acc: 0.0120 | loss: 0.1417 | cls_loss: 4.9361 | cnt_loss: 0.1417
+Eval Epoch: 21 | acc: 0.0140 | loss: 0.1379 | cls_loss: 4.9342 | cnt_loss: 0.1379
+Eval Epoch: 22 | acc: 0.0180 | loss: 0.1423 | cls_loss: 4.9372 | cnt_loss: 0.1423
+Eval Epoch: 23 | acc: 0.0120 | loss: 0.1614 | cls_loss: 4.9346 | cnt_loss: 0.1614
+Eval Epoch: 24 | acc: 0.0110 | loss: 0.1442 | cls_loss: 4.9347 | cnt_loss: 0.1442
+Eval Epoch: 25 | acc: 0.0100 | loss: 0.1568 | cls_loss: 4.9353 | cnt_loss: 0.1568
+Eval Epoch: 26 | acc: 0.0090 | loss: 0.1465 | cls_loss: 4.9346 | cnt_loss: 0.1465
+Eval Epoch: 27 | acc: 0.0140 | loss: 0.1354 | cls_loss: 4.9354 | cnt_loss: 0.1354
+Eval Epoch: 28 | acc: 0.0070 | loss: 0.1312 | cls_loss: 4.9356 | cnt_loss: 0.1312
+Eval Epoch: 29 | acc: 0.0150 | loss: 0.1265 | cls_loss: 4.9358 | cnt_loss: 0.1265
+Eval Epoch: 30 | acc: 0.0100 | loss: 0.1278 | cls_loss: 4.9353 | cnt_loss: 0.1278
+Eval Epoch: 31 | acc: 0.0090 | loss: 0.1346 | cls_loss: 4.9354 | cnt_loss: 0.1346
+Eval Epoch: 32 | acc: 0.0130 | loss: 0.1303 | cls_loss: 4.9360 | cnt_loss: 0.1303
+Eval Epoch: 33 | acc: 0.0100 | loss: 0.1286 | cls_loss: 4.9376 | cnt_loss: 0.1286
+Eval Epoch: 34 | acc: 0.0150 | loss: 0.1267 | cls_loss: 4.9353 | cnt_loss: 0.1267
+Eval Epoch: 35 | acc: 0.0100 | loss: 0.1362 | cls_loss: 4.9350 | cnt_loss: 0.1362
+Eval Epoch: 36 | acc: 0.0090 | loss: 0.1264 | cls_loss: 4.9345 | cnt_loss: 0.1264
+Eval Epoch: 37 | acc: 0.0060 | loss: 0.1308 | cls_loss: 4.9311 | cnt_loss: 0.1308
+Eval Epoch: 38 | acc: 0.0080 | loss: 0.1373 | cls_loss: 4.9324 | cnt_loss: 0.1373
+Eval Epoch: 39 | acc: 0.0080 | loss: 0.1198 | cls_loss: 4.9320 | cnt_loss: 0.1198
+Eval Epoch: 40 | acc: 0.0080 | loss: 0.1270 | cls_loss: 4.9340 | cnt_loss: 0.1270
+Eval Epoch: 41 | acc: 0.0140 | loss: 0.1322 | cls_loss: 4.9321 | cnt_loss: 0.1322
+Eval Epoch: 42 | acc: 0.0100 | loss: 0.1259 | cls_loss: 4.9323 | cnt_loss: 0.1259
+Eval Epoch: 43 | acc: 0.0100 | loss: 0.1195 | cls_loss: 4.9330 | cnt_loss: 0.1195
+Eval Epoch: 44 | acc: 0.0090 | loss: 0.1413 | cls_loss: 4.9311 | cnt_loss: 0.1413
+Eval Epoch: 45 | acc: 0.0050 | loss: 0.1299 | cls_loss: 4.9303 | cnt_loss: 0.1299
+Eval Epoch: 46 | acc: 0.0110 | loss: 0.1256 | cls_loss: 4.9326 | cnt_loss: 0.1256
+Eval Epoch: 47 | acc: 0.0080 | loss: 0.1305 | cls_loss: 4.9310 | cnt_loss: 0.1305
+Eval Epoch: 48 | acc: 0.0070 | loss: 0.1256 | cls_loss: 4.9352 | cnt_loss: 0.1256
+Eval Epoch: 49 | acc: 0.0130 | loss: 0.1234 | cls_loss: 4.9340 | cnt_loss: 0.1234
+Eval Epoch: 50 | acc: 0.0090 | loss: 0.1228 | cls_loss: 4.9319 | cnt_loss: 0.1228
+Eval Epoch: 51 | acc: 0.0040 | loss: 0.1196 | cls_loss: 4.9326 | cnt_loss: 0.1196
+Eval Epoch: 52 | acc: 0.0080 | loss: 0.1247 | cls_loss: 4.9326 | cnt_loss: 0.1247
+Eval Epoch: 53 | acc: 0.0100 | loss: 0.1219 | cls_loss: 4.9313 | cnt_loss: 0.1219
+Early stop at epoch 53. Best val loss: 0.1195, with acc: 0.0100, after epoch: 43
+Top-1 accuracy: 0.009999999776482582
+Macro F1:0.0020767079257645294
+Per-pair accuracy: 0.072
+RMSE per class: [0.43521714210510254, 0.4900600016117096, 0.5391830205917358, 0.5263105630874634, 0.5606659054756165, 0.59722501039505]
+MAE per class: [0.24168455600738525, 0.26439473032951355, 0.3084709346294403, 0.2934722304344177, 0.3075951039791107, 0.3332587778568268]
+Overall RMSE: 0.5273072719573975
+Overall MAE: 0.2914793789386749
+Saved model to checkpoints_data/model_reg_only.pt
+
+=== Training mode=multitask, lambda_cnt=0.3 ===
+Eval Epoch: 1 | acc: 0.0120 | loss: 5.1088 | cls_loss: 4.6827 | cnt_loss: 1.4204
+Eval Epoch: 2 | acc: 0.0240 | loss: 4.5099 | cls_loss: 4.1109 | cnt_loss: 1.3300
+Eval Epoch: 3 | acc: 0.0370 | loss: 4.1887 | cls_loss: 3.8020 | cnt_loss: 1.2888
+Eval Epoch: 4 | acc: 0.1210 | loss: 3.3669 | cls_loss: 3.0947 | cnt_loss: 0.9074
+Eval Epoch: 5 | acc: 0.2160 | loss: 2.6133 | cls_loss: 2.4309 | cnt_loss: 0.6079
+Eval Epoch: 6 | acc: 0.2660 | loss: 2.2928 | cls_loss: 2.1538 | cnt_loss: 0.4633
+Eval Epoch: 7 | acc: 0.2730 | loss: 2.0783 | cls_loss: 1.9557 | cnt_loss: 0.4086
+Eval Epoch: 8 | acc: 0.3140 | loss: 1.9101 | cls_loss: 1.8061 | cnt_loss: 0.3465
+Eval Epoch: 9 | acc: 0.3640 | loss: 1.8108 | cls_loss: 1.7092 | cnt_loss: 0.3388
+Eval Epoch: 10 | acc: 0.3410 | loss: 1.7766 | cls_loss: 1.6815 | cnt_loss: 0.3170
+Eval Epoch: 11 | acc: 0.3600 | loss: 1.7262 | cls_loss: 1.6333 | cnt_loss: 0.3096
+Eval Epoch: 12 | acc: 0.3880 | loss: 1.6567 | cls_loss: 1.5774 | cnt_loss: 0.2643
+Eval Epoch: 13 | acc: 0.3580 | loss: 1.7002 | cls_loss: 1.6205 | cnt_loss: 0.2655
+Eval Epoch: 14 | acc: 0.3380 | loss: 1.7358 | cls_loss: 1.6528 | cnt_loss: 0.2766
+Eval Epoch: 15 | acc: 0.4100 | loss: 1.5385 | cls_loss: 1.4655 | cnt_loss: 0.2432
+Eval Epoch: 16 | acc: 0.3980 | loss: 1.5464 | cls_loss: 1.4758 | cnt_loss: 0.2352
+Eval Epoch: 17 | acc: 0.4300 | loss: 1.4659 | cls_loss: 1.4017 | cnt_loss: 0.2143
+Eval Epoch: 18 | acc: 0.4140 | loss: 1.5143 | cls_loss: 1.4480 | cnt_loss: 0.2210
+Eval Epoch: 19 | acc: 0.4320 | loss: 1.4307 | cls_loss: 1.3678 | cnt_loss: 0.2098
+Eval Epoch: 20 | acc: 0.4190 | loss: 1.4627 | cls_loss: 1.4022 | cnt_loss: 0.2019
+Eval Epoch: 21 | acc: 0.4190 | loss: 1.4759 | cls_loss: 1.4172 | cnt_loss: 0.1955
+Eval Epoch: 22 | acc: 0.4470 | loss: 1.4416 | cls_loss: 1.3845 | cnt_loss: 0.1904
+Eval Epoch: 23 | acc: 0.4570 | loss: 1.3773 | cls_loss: 1.3216 | cnt_loss: 0.1857
+Eval Epoch: 24 | acc: 0.4510 | loss: 1.3299 | cls_loss: 1.2790 | cnt_loss: 0.1695
+Eval Epoch: 25 | acc: 0.3950 | loss: 1.5136 | cls_loss: 1.4528 | cnt_loss: 0.2024
+Eval Epoch: 26 | acc: 0.4420 | loss: 1.3423 | cls_loss: 1.2910 | cnt_loss: 0.1710
+Eval Epoch: 27 | acc: 0.4400 | loss: 1.3539 | cls_loss: 1.3033 | cnt_loss: 0.1689
+Eval Epoch: 28 | acc: 0.4600 | loss: 1.3373 | cls_loss: 1.2874 | cnt_loss: 0.1665
+Eval Epoch: 29 | acc: 0.4990 | loss: 1.2778 | cls_loss: 1.2305 | cnt_loss: 0.1576
+Eval Epoch: 30 | acc: 0.4460 | loss: 1.4943 | cls_loss: 1.4345 | cnt_loss: 0.1995
+Eval Epoch: 31 | acc: 0.4910 | loss: 1.2376 | cls_loss: 1.1920 | cnt_loss: 0.1520
+Eval Epoch: 32 | acc: 0.4900 | loss: 1.2592 | cls_loss: 1.2156 | cnt_loss: 0.1453
+Eval Epoch: 33 | acc: 0.4420 | loss: 1.5046 | cls_loss: 1.4447 | cnt_loss: 0.1996
+Eval Epoch: 34 | acc: 0.4650 | loss: 1.3214 | cls_loss: 1.2733 | cnt_loss: 0.1604
+Eval Epoch: 35 | acc: 0.4540 | loss: 1.4135 | cls_loss: 1.3613 | cnt_loss: 0.1739
+Eval Epoch: 36 | acc: 0.4730 | loss: 1.3016 | cls_loss: 1.2559 | cnt_loss: 0.1525
+Eval Epoch: 37 | acc: 0.4720 | loss: 1.3057 | cls_loss: 1.2608 | cnt_loss: 0.1499
+Eval Epoch: 38 | acc: 0.5100 | loss: 1.2717 | cls_loss: 1.2263 | cnt_loss: 0.1514
+Eval Epoch: 39 | acc: 0.5010 | loss: 1.3348 | cls_loss: 1.2881 | cnt_loss: 0.1557
+Eval Epoch: 40 | acc: 0.4510 | loss: 1.5260 | cls_loss: 1.4720 | cnt_loss: 0.1800
+Eval Epoch: 41 | acc: 0.4930 | loss: 1.3177 | cls_loss: 1.2736 | cnt_loss: 0.1469
+Early stop at epoch 41. Best val loss: 1.2376, with acc: 0.4910, after epoch: 31
+Top-1 accuracy: 0.4909999966621399
+Macro F1:0.4508174303685698
+Per-pair accuracy: 0.957
+RMSE per class: [0.5112842917442322, 0.4904991090297699, 0.6346186995506287, 0.6227138042449951, 0.6636437177658081, 0.6286280155181885]
+MAE per class: [0.31286290287971497, 0.28646692633628845, 0.411529004573822, 0.3740619421005249, 0.40313631296157837, 0.38047173619270325]
+Overall RMSE: 0.5955544114112854
+Overall MAE: 0.36142146587371826
+Saved model to checkpoints_data/model_multitask_lambda0_3.pt
+
+=== Training mode=multitask, lambda_cnt=0.5 ===
+Eval Epoch: 1 | acc: 0.0090 | loss: 5.3870 | cls_loss: 4.6783 | cnt_loss: 1.4175
+Eval Epoch: 2 | acc: 0.0330 | loss: 4.7021 | cls_loss: 4.0592 | cnt_loss: 1.2858
+Eval Epoch: 3 | acc: 0.0780 | loss: 3.8601 | cls_loss: 3.3748 | cnt_loss: 0.9708
+Eval Epoch: 4 | acc: 0.1230 | loss: 3.4815 | cls_loss: 3.0543 | cnt_loss: 0.8544
+Eval Epoch: 5 | acc: 0.1580 | loss: 2.9340 | cls_loss: 2.5964 | cnt_loss: 0.6751
+Eval Epoch: 6 | acc: 0.2010 | loss: 2.5974 | cls_loss: 2.3072 | cnt_loss: 0.5803
+Eval Epoch: 7 | acc: 0.2490 | loss: 2.3415 | cls_loss: 2.0988 | cnt_loss: 0.4855
+Eval Epoch: 8 | acc: 0.2760 | loss: 2.1629 | cls_loss: 1.9696 | cnt_loss: 0.3865
+Eval Epoch: 9 | acc: 0.3080 | loss: 1.9905 | cls_loss: 1.8210 | cnt_loss: 0.3390
+Eval Epoch: 10 | acc: 0.3190 | loss: 1.9124 | cls_loss: 1.7523 | cnt_loss: 0.3202
+Eval Epoch: 11 | acc: 0.2640 | loss: 2.0887 | cls_loss: 1.9112 | cnt_loss: 0.3550
+Eval Epoch: 12 | acc: 0.3440 | loss: 1.7858 | cls_loss: 1.6415 | cnt_loss: 0.2886
+Eval Epoch: 13 | acc: 0.3600 | loss: 1.7419 | cls_loss: 1.6121 | cnt_loss: 0.2597
+Eval Epoch: 14 | acc: 0.3420 | loss: 1.7063 | cls_loss: 1.5795 | cnt_loss: 0.2535
+Eval Epoch: 15 | acc: 0.3750 | loss: 1.6738 | cls_loss: 1.5558 | cnt_loss: 0.2359
+Eval Epoch: 16 | acc: 0.3680 | loss: 1.6570 | cls_loss: 1.5457 | cnt_loss: 0.2225
+Eval Epoch: 17 | acc: 0.3800 | loss: 1.7076 | cls_loss: 1.5880 | cnt_loss: 0.2392
+Eval Epoch: 18 | acc: 0.3870 | loss: 1.6167 | cls_loss: 1.5006 | cnt_loss: 0.2322
+Eval Epoch: 19 | acc: 0.4050 | loss: 1.6209 | cls_loss: 1.5065 | cnt_loss: 0.2288
+Eval Epoch: 20 | acc: 0.3820 | loss: 1.5959 | cls_loss: 1.4941 | cnt_loss: 0.2037
+Eval Epoch: 21 | acc: 0.3770 | loss: 1.6319 | cls_loss: 1.5214 | cnt_loss: 0.2211
+Eval Epoch: 22 | acc: 0.4070 | loss: 1.5881 | cls_loss: 1.4817 | cnt_loss: 0.2128
+Eval Epoch: 23 | acc: 0.3990 | loss: 1.5392 | cls_loss: 1.4447 | cnt_loss: 0.1890
+Eval Epoch: 24 | acc: 0.3900 | loss: 1.5686 | cls_loss: 1.4649 | cnt_loss: 0.2073
+Eval Epoch: 25 | acc: 0.4180 | loss: 1.5620 | cls_loss: 1.4666 | cnt_loss: 0.1908
+Eval Epoch: 26 | acc: 0.4110 | loss: 1.5420 | cls_loss: 1.4409 | cnt_loss: 0.2021
+Eval Epoch: 27 | acc: 0.4030 | loss: 1.5937 | cls_loss: 1.4937 | cnt_loss: 0.2001
+Eval Epoch: 28 | acc: 0.4310 | loss: 1.5335 | cls_loss: 1.4371 | cnt_loss: 0.1929
+Eval Epoch: 29 | acc: 0.4170 | loss: 1.5201 | cls_loss: 1.4250 | cnt_loss: 0.1903
+Eval Epoch: 30 | acc: 0.4460 | loss: 1.4852 | cls_loss: 1.3948 | cnt_loss: 0.1808
+Eval Epoch: 31 | acc: 0.4350 | loss: 1.5476 | cls_loss: 1.4552 | cnt_loss: 0.1848
+Eval Epoch: 32 | acc: 0.3950 | loss: 1.5634 | cls_loss: 1.4712 | cnt_loss: 0.1844
+Eval Epoch: 33 | acc: 0.4280 | loss: 1.5397 | cls_loss: 1.4488 | cnt_loss: 0.1818
+Eval Epoch: 34 | acc: 0.4060 | loss: 1.6774 | cls_loss: 1.5740 | cnt_loss: 0.2069
+Eval Epoch: 35 | acc: 0.4240 | loss: 1.5473 | cls_loss: 1.4561 | cnt_loss: 0.1825
+Eval Epoch: 36 | acc: 0.4430 | loss: 1.5147 | cls_loss: 1.4271 | cnt_loss: 0.1751
+Eval Epoch: 37 | acc: 0.4390 | loss: 1.5436 | cls_loss: 1.4527 | cnt_loss: 0.1818
+Eval Epoch: 38 | acc: 0.4140 | loss: 1.6028 | cls_loss: 1.5092 | cnt_loss: 0.1871
+Eval Epoch: 39 | acc: 0.4330 | loss: 1.5659 | cls_loss: 1.4778 | cnt_loss: 0.1761
+Eval Epoch: 40 | acc: 0.4350 | loss: 1.6278 | cls_loss: 1.5374 | cnt_loss: 0.1809
+Early stop at epoch 40. Best val loss: 1.4852, with acc: 0.4460, after epoch: 30
+Top-1 accuracy: 0.44600000977516174
+Macro F1:0.40752824215816885
+Per-pair accuracy: 0.926
+RMSE per class: [0.5818572044372559, 0.6363356709480286, 0.6616179943084717, 0.7053231596946716, 0.6503673791885376, 0.7649989724159241]
+MAE per class: [0.3720524311065674, 0.39532673358917236, 0.39262351393699646, 0.386877179145813, 0.4128374457359314, 0.4464433491230011]
+Overall RMSE: 0.6691911816596985
+Overall MAE: 0.40102672576904297
+Saved model to checkpoints_data/model_multitask_lambda0_5.pt
+
+=== Training mode=multitask, lambda_cnt=1.0 ===
+Eval Epoch: 1 | acc: 0.0130 | loss: 6.0601 | cls_loss: 4.6618 | cnt_loss: 1.3982
+Eval Epoch: 2 | acc: 0.0440 | loss: 5.0426 | cls_loss: 3.8620 | cnt_loss: 1.1806
+Eval Epoch: 3 | acc: 0.1140 | loss: 3.9536 | cls_loss: 3.0308 | cnt_loss: 0.9228
+Eval Epoch: 4 | acc: 0.2310 | loss: 2.7180 | cls_loss: 2.2474 | cnt_loss: 0.4706
+Eval Epoch: 5 | acc: 0.2610 | loss: 2.4497 | cls_loss: 2.0513 | cnt_loss: 0.3984
+Eval Epoch: 6 | acc: 0.3220 | loss: 2.2310 | cls_loss: 1.8813 | cnt_loss: 0.3497
+Eval Epoch: 7 | acc: 0.3440 | loss: 2.0168 | cls_loss: 1.7319 | cnt_loss: 0.2848
+Eval Epoch: 8 | acc: 0.3280 | loss: 1.9856 | cls_loss: 1.7121 | cnt_loss: 0.2735
+Eval Epoch: 9 | acc: 0.3690 | loss: 1.8957 | cls_loss: 1.6282 | cnt_loss: 0.2676
+Eval Epoch: 10 | acc: 0.3710 | loss: 1.7633 | cls_loss: 1.5475 | cnt_loss: 0.2158
+Eval Epoch: 11 | acc: 0.3880 | loss: 1.6938 | cls_loss: 1.4886 | cnt_loss: 0.2052
+Eval Epoch: 12 | acc: 0.3850 | loss: 1.7260 | cls_loss: 1.5080 | cnt_loss: 0.2180
+Eval Epoch: 13 | acc: 0.4370 | loss: 1.6148 | cls_loss: 1.4252 | cnt_loss: 0.1896
+Eval Epoch: 14 | acc: 0.4280 | loss: 1.5632 | cls_loss: 1.3810 | cnt_loss: 0.1822
+Eval Epoch: 15 | acc: 0.4060 | loss: 1.5802 | cls_loss: 1.3931 | cnt_loss: 0.1871
+Eval Epoch: 16 | acc: 0.3930 | loss: 1.5976 | cls_loss: 1.4153 | cnt_loss: 0.1823
+Eval Epoch: 17 | acc: 0.4090 | loss: 1.5806 | cls_loss: 1.4031 | cnt_loss: 0.1775
+Eval Epoch: 18 | acc: 0.4070 | loss: 1.6578 | cls_loss: 1.4550 | cnt_loss: 0.2027
+Eval Epoch: 19 | acc: 0.4210 | loss: 1.5380 | cls_loss: 1.3636 | cnt_loss: 0.1745
+Eval Epoch: 20 | acc: 0.4330 | loss: 1.4933 | cls_loss: 1.3232 | cnt_loss: 0.1701
+Eval Epoch: 21 | acc: 0.4450 | loss: 1.5488 | cls_loss: 1.3674 | cnt_loss: 0.1814
+Eval Epoch: 22 | acc: 0.4690 | loss: 1.4458 | cls_loss: 1.2882 | cnt_loss: 0.1576
+Eval Epoch: 23 | acc: 0.5060 | loss: 1.3585 | cls_loss: 1.2152 | cnt_loss: 0.1434
+Eval Epoch: 24 | acc: 0.4570 | loss: 1.4308 | cls_loss: 1.2815 | cnt_loss: 0.1494
+Eval Epoch: 25 | acc: 0.4800 | loss: 1.4045 | cls_loss: 1.2593 | cnt_loss: 0.1453
+Eval Epoch: 26 | acc: 0.4790 | loss: 1.3921 | cls_loss: 1.2460 | cnt_loss: 0.1461
+Eval Epoch: 27 | acc: 0.4770 | loss: 1.3848 | cls_loss: 1.2369 | cnt_loss: 0.1479
+Eval Epoch: 28 | acc: 0.4970 | loss: 1.3385 | cls_loss: 1.1965 | cnt_loss: 0.1420
+Eval Epoch: 29 | acc: 0.4920 | loss: 1.3842 | cls_loss: 1.2275 | cnt_loss: 0.1568
+Eval Epoch: 30 | acc: 0.4660 | loss: 1.4533 | cls_loss: 1.2919 | cnt_loss: 0.1615
+Eval Epoch: 31 | acc: 0.5040 | loss: 1.3207 | cls_loss: 1.1831 | cnt_loss: 0.1376
+Eval Epoch: 32 | acc: 0.4800 | loss: 1.3945 | cls_loss: 1.2384 | cnt_loss: 0.1561
+Eval Epoch: 33 | acc: 0.4990 | loss: 1.4062 | cls_loss: 1.2627 | cnt_loss: 0.1434
+Eval Epoch: 34 | acc: 0.4850 | loss: 1.3523 | cls_loss: 1.2136 | cnt_loss: 0.1387
+Eval Epoch: 35 | acc: 0.4880 | loss: 1.3984 | cls_loss: 1.2580 | cnt_loss: 0.1404
+Eval Epoch: 36 | acc: 0.4600 | loss: 1.5089 | cls_loss: 1.3440 | cnt_loss: 0.1649
+Eval Epoch: 37 | acc: 0.4990 | loss: 1.3945 | cls_loss: 1.2575 | cnt_loss: 0.1370
+Eval Epoch: 38 | acc: 0.4770 | loss: 1.4852 | cls_loss: 1.3298 | cnt_loss: 0.1554
+Eval Epoch: 39 | acc: 0.5060 | loss: 1.4168 | cls_loss: 1.2747 | cnt_loss: 0.1421
+Eval Epoch: 40 | acc: 0.5070 | loss: 1.3860 | cls_loss: 1.2517 | cnt_loss: 0.1344
+Eval Epoch: 41 | acc: 0.5050 | loss: 1.3323 | cls_loss: 1.1966 | cnt_loss: 0.1358
+Early stop at epoch 41. Best val loss: 1.3207, with acc: 0.5040, after epoch: 31
+Top-1 accuracy: 0.5040000081062317
+Macro F1:0.47228712275577167
+Per-pair accuracy: 0.947
+RMSE per class: [0.49739721417427063, 0.48386967182159424, 0.6189802885055542, 0.5889520645141602, 0.5913770198822021, 0.6190624237060547]
+MAE per class: [0.2988324463367462, 0.2797064185142517, 0.3531598746776581, 0.3324470520019531, 0.34503641724586487, 0.3770812153816223]
+Overall RMSE: 0.5692831873893738
+Overall MAE: 0.33104389905929565
+Saved model to checkpoints_data/model_multitask_lambda1_0.pt
+
+Saved all results dict to checkpoints_data/all_results.pkl
