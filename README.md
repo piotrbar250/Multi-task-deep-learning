@@ -1,6 +1,6 @@
-# Multitask Learning on the Geometric Shape Numbers Dataset
+# Multi-Task Learning for Geometric Shape Classification and Counting
 
-PyTorch project for multitask deep learning on the Geometric Shape Numbers dataset.  
+PyTorch project for multi-task deep learning on the Geometric Shape Numbers dataset.  
 It uses a shared backbone with two heads:
 - one for image classification (shape/number class),
 - one for regression (counts of geometric shapes in the image).
@@ -8,9 +8,9 @@ It uses a shared backbone with two heads:
 The training notebook runs three types of experiments:
 - classification only,
 - regression only,
-- several variants of multitask learning (classification + regression).
+- several variants of multi-task learning (classification + regression).
 
-The metrics notebook computes multiple evaluations showing that multitask learning achieves nearly the same accuracy as classification-only training, while significantly reducing training overhead.
+The metrics notebook computes multiple evaluations showing that multi-task learning achieves nearly the same accuracy as classification-only training, while significantly reducing training overhead.
 
 ## Requirements
 
